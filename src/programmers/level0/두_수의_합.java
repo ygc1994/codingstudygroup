@@ -10,8 +10,9 @@ public class 두_수의_합 {
 
         answer = num1 + num2;
 
-        System.out.println("num1이 " + num1 + "이고 num2가 " + num2 + "이므로 " + num1 + " + " + num2 + " = " + answer +
-                "를 return합니다.");
+        System.out.println("num1 : " + num1);
+        System.out.println("num2 : " + num2);
+        System.out.println("result : " + answer);
 
     }
 

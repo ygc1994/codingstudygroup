@@ -8,16 +8,17 @@ public class 숫자_비교하기 {
         int num2 = 99;
         int answer = 0;
 
+        System.out.println("num1 : " + num1);
+        System.out.println("num2 : " + num2);
+
         if(num1 == num2) {
             answer = 1;
 
-            System.out.println("num1이 " + num1 + "이고 num2가 " + num2 + "이므로 같습니다. 따라서 " + answer + "을 " +
-                    "return합니다.");
+            System.out.println("result : " + answer);
         } else {
             answer = -1;
 
-            System.out.println("num1이 " + num1 + "이고 num2가 " + num2 + "이므로 다릅니다. 따라서 " + answer + "을 " +
-                    "return합니다.");
+            System.out.println("result : " + answer);
         }
 
     }

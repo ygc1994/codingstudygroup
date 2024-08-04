@@ -7,17 +7,12 @@ public class 짝수의_합 {
         int n = 4;
         int answer = 0;
 
-        System.out.print("n이 " + n + "이므로 ");
-
         for (int i = 1; i <= n; i++) {
-            if(i % 2 == 0) {
-                answer += i;
-
-                System.out.print(i + " + ");
-            }
+            if(i % 2 == 0) answer += i;
         }
 
-        System.out.println("\b\b" + "= " + answer + "을 return 합니다.");
+        System.out.println("n : " + n);
+        System.out.println("result : " + answer);
 
     }
 

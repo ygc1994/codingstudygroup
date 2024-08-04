@@ -8,13 +8,19 @@ public class 배열의_평균값 {
         double answer = 0;
         int sum = 0;
 
+        System.out.print("numbers : [");
 
         for (int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
+
+            System.out.print(numbers[i] + ", ");
         }
 
         answer = (double) sum / numbers.length;
 
-        System.out.println("numbers의 원소들의 평균 값은 " + answer + "입니다.");
+        System.out.println("\b\b]");
+        System.out.println("result : " + answer);
+
     }
+
 }

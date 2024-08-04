@@ -9,7 +9,8 @@ public class 나이_출력 {
 
         answer = 2022 - age + 1;
 
-        System.out.println("2022년 기준 " + age + "살이므로 " + answer + "년생입니다.");
+        System.out.println("age : " + age);
+        System.out.println("result : " + answer);
 
     }
 

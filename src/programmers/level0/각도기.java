@@ -7,23 +7,13 @@ public class 각도기 {
         int angle = 180;
         int answer = 0;
 
-        if(angle > 0 && angle < 90) {
-            answer = 1;
+        if(angle > 0 && angle < 90) answer = 1;
+            else if(angle == 90) answer = 2;
+            else if(angle > 90 && angle < 180) answer = 3;
+            else answer = 4;
 
-            System.out.println("angle이 " + angle + "이므로 예각입니다. 따라서 " + answer + "을 return합니다.");
-        } else if(angle == 90) {
-            answer = 2;
-
-            System.out.println("angle이 " + angle + "이므로 직각입니다. 따라서 " + answer + "을 return합니다.");
-        } else if(angle > 90 && angle < 180) {
-            answer = 3;
-
-            System.out.println("angle이 " + angle + "이므로 둔각입니다. 따라서 " + answer + "을 return합니다.");
-        } else {
-            answer = 4;
-
-            System.out.println("angle이 " + angle + "이므로 평각입니다. 따라서 " + answer + "을 return합니다.");
-        }
+        System.out.println("angle : " + angle);
+        System.out.println("result : " + answer);
 
     }
 

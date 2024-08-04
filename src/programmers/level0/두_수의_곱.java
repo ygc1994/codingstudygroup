@@ -10,7 +10,10 @@ public class 두_수의_곱 {
 
         answer = num1 * num2;
 
-        System.out.println("num1이 " + num1 + ", num2가 " + num2 + "이므로 " + num1 + " * " + num2 + " = " +
-                answer + "을 return합니다.");
+        System.out.println("num1 : " + num1);
+        System.out.println("num2 : " + num2);
+        System.out.println("result : " + answer);
+
     }
+
 }

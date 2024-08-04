@@ -10,8 +10,9 @@ public class 몫_구하기 {
 
         answer = num1 / num2;
 
-        System.out.println("num1이 " + num1 + ", num2가 " + num2 + "이므로 " + num1 + "을 " + num2 + "로 나눈 몫 " +
-                answer + "을 return 합니다.");
+        System.out.println("num1 : " + num1);
+        System.out.println("num2 : " + num2);
+        System.out.println("result : " + answer);
 
     }
 
