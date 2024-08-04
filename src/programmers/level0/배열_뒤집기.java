@@ -30,5 +30,7 @@ public class 배열_뒤집기 {
         }
 
         System.out.println("\b\b]");
+
     }
+
 }
