@@ -17,14 +17,12 @@ public class 중앙값_구하기 {
         System.out.println("\b\b]");
 
         for (int i = 0; i < array.length; i++) {
-            if(i == array.length - 1) {
-                temp = array[i];
-
-                break;
-            } else if(array[i] > array[i + 1]) {
-                temp = array[i];
-                array[i] = array[i + 1];
-                array[i + 1] = temp;
+            for (int j = i; j < array.length; j++) {
+                if(array[i] > array[j]) {
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
             }
         }
 
