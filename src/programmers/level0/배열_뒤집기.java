@@ -10,7 +10,7 @@ public class 배열_뒤집기 {
 
         answer = new int[num_list.length];
 
-        System.out.print('[');
+        System.out.print("num_list : [");
 
         for (int i = 0; i < num_list.length; i++) {
             System.out.print(num_list[i] + ", ");
@@ -23,7 +23,7 @@ public class 배열_뒤집기 {
             num++;
         }
 
-        System.out.print('[');
+        System.out.print("result : [");
 
         for (int i = 0; i < answer.length; i++) {
             System.out.print(answer[i] + ", ");
