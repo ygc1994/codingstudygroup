@@ -31,5 +31,7 @@ public class 단어_공부 {
         }
 
         System.out.println(ch);
+
     }
+
 }
