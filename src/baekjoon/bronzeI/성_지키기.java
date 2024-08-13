@@ -9,8 +9,8 @@ public class 성_지키기 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
-        int num1 = 0;
-        int num2 = 0;
+        int rg = 0;
+        int cg = 0;
 
         char[][] ch = new char[N][M];
 
@@ -28,7 +28,7 @@ public class 성_지키기 {
                 if(ch[i][j] == 'X') continue label;
             }
 
-            num1++;
+            rg++;
         }
 
         label:
@@ -37,10 +37,10 @@ public class 성_지키기 {
                 if(ch[j][i] == 'X') continue label;
             }
 
-            num2++;
+            cg++;
         }
 
-        System.out.println(Math.max(num1, num2));
+        System.out.println(Math.max(rg, cg));
 
     }
 
